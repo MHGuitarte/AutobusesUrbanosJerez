@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:font="@font/usenet" />
+    <font android:font="@font/torid" />
+    <font android:font="@font/gothic" />
+    <font android:font="@font/gothic_light" />
+    <font android:font="@font/rounded_elegance" />
+    <font android:font="@font/sansation" />
+    <font android:font="@font/comforta" />
+</font-family>

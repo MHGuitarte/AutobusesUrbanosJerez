@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0006c2"
+    android:padding="@dimen/d5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#62ffffff"
+        tools:context="com.mangh.autobusesurbanosjerez.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/portada"
+            android:orientation="horizontal">
+
+            <!--
+
+            <Button
+                android:layout_width="@dimen/d40"
+                android:layout_height="@dimen/d25"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="@dimen/d10"
+                android:background="@drawable/eng" />
+
+                -->
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/main_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/d10">
+
+            <Button
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d100"
+                android:layout_margin="@dimen/d10"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableLeft="@mipmap/ic_clock"
+                android:onClick="accLineas"
+                android:text="Horarios" />
+
+            <Button
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d100"
+                android:layout_margin="@dimen/d10"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableLeft="@mipmap/ic_map"
+                android:onClick="accParadas"
+                android:text="Paradas" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_layout1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/d10">
+
+            <Button
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d100"
+                android:layout_margin="@dimen/d10"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableLeft="@mipmap/ic_news"
+                android:onClick="accInfo"
+                android:text="Noticias" />
+
+            <Button
+                android:layout_width="@dimen/d120"
+                android:layout_height="@dimen/d100"
+                android:layout_margin="@dimen/d10"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableLeft="@mipmap/ic_help"
+                android:onClick="accAbout"
+                android:text="Más Info" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

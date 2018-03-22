@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "335649757539",
+    "firebase_url": "https://urbanos-jerez-mangh.firebaseio.com",
+    "project_id": "urbanos-jerez-mangh",
+    "storage_bucket": "urbanos-jerez-mangh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335649757539:android:868ffb88758a9a9a",
+        "android_client_info": {
+          "package_name": "com.mangh.autobusesurbanosjerez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335649757539-4468lompjq71krf9oj1aiv196oi0cu53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mangh.autobusesurbanosjerez",
+            "certificate_hash": "abe78af83baf1de028ece7acabd4e8886d9c56b6"
+          }
+        },
+        {
+          "client_id": "335649757539-h8fn92lb0ago38dlhahm1jijqf3u8c7u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnthR-SnMjJHmIueGkwZbIXXFno9u2GyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335649757539-h8fn92lb0ago38dlhahm1jijqf3u8c7u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
